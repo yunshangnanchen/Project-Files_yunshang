@@ -92,7 +92,8 @@ const App = () => {
     { id: 'PROJ-01', title: '箱庭计划', sub: 'Hako-Niwa', desc: '基于舞台机器理论构建的模拟计算矩阵。维持微型现实稳定的最后算力源。', status: 'RUNNING', link: 'https://www.bilibili.com/video/BV1xx411c7mu' },
     { id: 'PROJ-02', title: '忒休斯计划', sub: 'Theseus', desc: '文明火种远征行动。建造巨型星舰逃离崩坏区。', status: 'READY', link: 'https://www.bilibili.com/video/BV1yx411c7gT' },
     { id: 'PROJ-GE', title: '基因工程', sub: 'Genetic_Eng', desc: '重写双螺旋结构以适应非欧几里得空间的重力畸变。', status: 'REWRITING', link: 'https://www.bilibili.com/video/BV1Yx411c7nQ' },
-    { id: 'PROJ-03', title: '临界生命', sub: 'Star_Sea', desc: '利用星海计划进行星海研究。', status: 'RUNNING', link: 'https://www.bilibili.com/video/BV1Yx411c7nQ' }
+    { id: 'PROJ-03', title: '临界生命', sub: 'Star_Sea', desc: '利用星海计划进行星海研究。', status: 'RUNNING', link: 'https://www.bilibili.com/video/BV1Yx411c7nQ' },
+    { id: 'PROJ-04', title: '北极星计划', sub: 'Star_Sea', desc: '指引后来之人地球人类文明最后的备份', status: 'RUNNING', link: 'https://www.bilibili.com/video/BV1Yx411c7nQ' }
   ];
 
   const characters = [
@@ -205,140 +206,140 @@ const App = () => {
     { id: '10', title: 'h', artist: 'Tsukishiro Hikari' }
   ];
 
-const timelineData = [
-  {
-    date: "1910-10-21",
-    event: "箱庭设计者死亡",
-    details: "天才计算机科学家于项目发布前三日死亡；遗留完整箱庭设计文档；“玛丽苏”管理逻辑被记录，但关键约束与上位权限模块缺失。",
-    tag: "一切的开始"
-  },
-  {
-    date: "19██-██-██",
-    event: "箱庭投入使用",
-    details: "箱庭系统被用于国家级科研与未来预测；逐步成为人类科技跃迁与宏观决策的核心工具。",
-    tag: "最初的愿景"
-  },
-  {
-    date: "20██-██-██",
-    event: "箱庭复制体制造完成",
-    details: "初代复制体用于极限算力测试；启动 π 极限计算程序；系统负载首次超过理论安全阈值。",
-    tag: "转折"
-  },
-  {
-    date: "20██-██-██",
-    event: "π 被完全计算",
-    details: "π 的有限性被证实；基础数学假设失效；多项物理预测模型同时崩溃；相关结果被列为 Ω 级机密。",
-    tag: "崩溃"
-  },
-  {
-    date: "20██-██-██",
-    event: "异常恒星出现",
-    details: "距地球约 7 光年；无任何历史观测记录；其出现时间与 π 计算完成时间高度重合。",
-    tag: "预警"
-  },
-  {
-    date: "2038-██-██",
-    event: "恒星灭绝威胁确认",
-    details: "综合预测显示异常恒星最晚于 2060 年发生爆炸；地球文明进入不可逆倒计时。",
-    tag: "生存"
-  },
-  {
-    date: "203█-██-██",
-    event: "杨建明死亡",
-    details: "长期参与恒星异常与箱庭关联研究；死亡原因与过程被列为最高机密；全部研究记录被封存。",
-    tag: "个人"
-  },
-  {
-    date: "2045-11-21",
-    event: "全球航天计划紧急冻结",
-    details: "所有公开航天发射任务被取消；相关信息全面封锁；杨承宇被秘密接触并纳入核心小组。",
-    tag: "封锁"
-  },
-  {
-    date: "2045-11-██",
-    event: "杨承宇获知真相",
-    details: "接触父亲遗留的绝密文件；确认 π 事件、异常恒星与箱庭系统之间的因果关联。",
-    tag: "真相"
-  },
-  {
-    date: "2046-██-██",
-    event: "忒休斯星舰计划确立",
-    details: "地球存续方案被正式放弃；目标调整为跨恒星迁移；文明延续优先级高于个体生存。",
-    tag: "撤离"
-  },
-  {
-    date: "2046-02-01",
-    event: "杨承宇妻子确诊癌症",
-    details: "确诊时已怀孕四个月；医疗资源向星舰工程倾斜；家庭与文明存亡冲突全面爆发。",
-    tag: "悲剧"
-  },
-  {
-    date: "2046-04-21",
-    event: "女儿出生（早产）",
-    details: "早产个体；母亲进入长期治疗阶段；医疗机器人介入抚育。",
-    tag: "新生"
-  },
-  {
-    date: "2046-██-██",
-    event: "妻子死亡",
-    details: "死前记忆被用于 ███████ 智能体训练（未公开）；相关伦理审查被跳过。",
-    tag: "代价"
-  },
-  {
-    date: "2046-09-27",
-    event: "忒休斯星舰设计完成",
-    details: "云幻科技负责核心软件；箱庭系统被重写并作为星舰中控与决策核心。",
-    tag: "工程"
-  },
-  {
-    date: "2046-██-██",
-    event: "神经虚拟现实技术重新启用",
-    details: "该技术曾因伦理风险被全面封禁；在特殊授权下重新进入研究序列；杨承宇开始秘密介入。",
-    tag: "禁忌"
-  },
-  {
-    date: "2050-03-██",
-    event: "杨承宇异常行为记录",
-    details: "长期缺席研究所；频繁接触箱庭初代复制体；行为被系统标注为“最优解偏移”。",
-    tag: "偏移"
-  },
-  {
-    date: "2052-04-21",
-    event: "“21号方舟”计划揭露",
-    details: "杨承宇向周防盛、刘忠强坦白个人计划；单人小型曲率飞船；目标：为女儿构建封闭生存世界。",
-    tag: "秘密"
-  },
-  {
-    date: "2052-04-21",
-    event: "核心决策形成",
-    details: "使用初代箱庭复制体作为世界载体；神经虚拟现实 + 记忆清除；女儿作为唯一乘员。",
-    tag: "决定"
-  },
-  {
-    date: "2056-██-██",
-    event: "忒休斯星舰发射（预定）",
-    details: "人类文明主群体离开地球；真实任务目标未向公众公开。",
-    tag: "终章"
-  },
-  {
-    date: "2056-██-██",
-    event: "21号方舟发射（预定）",
-    details: "发射时间刻意避开公众与系统主日志；航向：近地黑洞方向。",
-    tag: "希望"
-  },
-  {
-    date: "2060-██-██",
-    event: "恒星爆炸（预测）",
-    details: "异常恒星发生爆炸；地球生态与人类文明彻底终结。",
-    tag: "毁灭"
-  },
-  {
-    date: "2062-██-██",
-    event: "21号方舟抵达目标区域（预测）",
-    details: "Seed-21 苏醒；箱庭世界被确认为其唯一现实。",
-    tag: "苏醒"
-  }
-];
+  const timelineData = [
+    {
+      date: "1910-10-21",
+      event: "箱庭设计者死亡",
+      details: "天才计算机科学家于项目发布前三日死亡；遗留完整箱庭设计文档；“玛丽苏”管理逻辑被记录，但关键约束与上位权限模块缺失。",
+      tag: "一切的开始"
+    },
+    {
+      date: "19██-██-██",
+      event: "箱庭投入使用",
+      details: "箱庭系统被用于国家级科研与未来预测；逐步成为人类科技跃迁与宏观决策的核心工具。",
+      tag: "最初的愿景"
+    },
+    {
+      date: "20██-██-██",
+      event: "箱庭复制体制造完成",
+      details: "初代复制体用于极限算力测试；启动 π 极限计算程序；系统负载首次超过理论安全阈值。",
+      tag: "转折"
+    },
+    {
+      date: "20██-██-██",
+      event: "π 被完全计算",
+      details: "π 的有限性被证实；基础数学假设失效；多项物理预测模型同时崩溃；相关结果被列为 Ω 级机密。",
+      tag: "崩溃"
+    },
+    {
+      date: "20██-██-██",
+      event: "异常恒星出现",
+      details: "距地球约 7 光年；无任何历史观测记录；其出现时间与 π 计算完成时间高度重合。",
+      tag: "预警"
+    },
+    {
+      date: "2038-██-██",
+      event: "恒星灭绝威胁确认",
+      details: "综合预测显示异常恒星最晚于 2060 年发生爆炸；地球文明进入不可逆倒计时。",
+      tag: "生存"
+    },
+    {
+      date: "203█-██-██",
+      event: "杨建明死亡",
+      details: "长期参与恒星异常与箱庭关联研究；死亡原因与过程被列为最高机密；全部研究记录被封存。",
+      tag: "个人"
+    },
+    {
+      date: "2045-11-21",
+      event: "全球航天计划紧急冻结",
+      details: "所有公开航天发射任务被取消；相关信息全面封锁；杨承宇被秘密接触并纳入核心小组。",
+      tag: "封锁"
+    },
+    {
+      date: "2045-11-██",
+      event: "杨承宇获知真相",
+      details: "接触父亲遗留的绝密文件；确认 π 事件、异常恒星与箱庭系统之间的因果关联。",
+      tag: "真相"
+    },
+    {
+      date: "2046-██-██",
+      event: "忒休斯星舰计划确立",
+      details: "地球存续方案被正式放弃；目标调整为跨恒星迁移；文明延续优先级高于个体生存。",
+      tag: "撤离"
+    },
+    {
+      date: "2046-02-01",
+      event: "杨承宇妻子确诊癌症",
+      details: "确诊时已怀孕四个月；医疗资源向星舰工程倾斜；家庭与文明存亡冲突全面爆发。",
+      tag: "悲剧"
+    },
+    {
+      date: "2046-04-21",
+      event: "女儿出生（早产）",
+      details: "早产个体；母亲进入长期治疗阶段；医疗机器人介入抚育。",
+      tag: "新生"
+    },
+    {
+      date: "2046-██-██",
+      event: "妻子死亡",
+      details: "死前记忆被用于 ███████ 智能体训练（未公开）；相关伦理审查被跳过。",
+      tag: "代价"
+    },
+    {
+      date: "2046-09-27",
+      event: "忒休斯星舰设计完成",
+      details: "云幻科技负责核心软件；箱庭系统被重写并作为星舰中控与决策核心。",
+      tag: "工程"
+    },
+    {
+      date: "2046-██-██",
+      event: "神经虚拟现实技术重新启用",
+      details: "该技术曾因伦理风险被全面封禁；在特殊授权下重新进入研究序列；杨承宇开始秘密介入。",
+      tag: "禁忌"
+    },
+    {
+      date: "2050-03-██",
+      event: "杨承宇异常行为记录",
+      details: "长期缺席研究所；频繁接触箱庭初代复制体；行为被系统标注为“最优解偏移”。",
+      tag: "偏移"
+    },
+    {
+      date: "2052-04-21",
+      event: "“21号方舟”计划揭露",
+      details: "杨承宇向周防盛、刘忠强坦白个人计划；单人小型曲率飞船；目标：为女儿构建封闭生存世界。",
+      tag: "秘密"
+    },
+    {
+      date: "2052-04-21",
+      event: "核心决策形成",
+      details: "使用初代箱庭复制体作为世界载体；神经虚拟现实 + 记忆清除；女儿作为唯一乘员。",
+      tag: "决定"
+    },
+    {
+      date: "2056-██-██",
+      event: "忒休斯星舰发射（预定）",
+      details: "人类文明主群体离开地球；真实任务目标未向公众公开。",
+      tag: "终章"
+    },
+    {
+      date: "2056-██-██",
+      event: "21号方舟发射（预定）",
+      details: "发射时间刻意避开公众与系统主日志；航向：近地黑洞方向。",
+      tag: "希望"
+    },
+    {
+      date: "2060-██-██",
+      event: "恒星爆炸（预测）",
+      details: "异常恒星发生爆炸；地球生态与人类文明彻底终结。",
+      tag: "毁灭"
+    },
+    {
+      date: "2062-██-██",
+      event: "21号方舟抵达目标区域（预测）",
+      details: "Seed-21 苏醒；箱庭世界被确认为其唯一现实。",
+      tag: "苏醒"
+    }
+  ];
 
   const storyChapters = [
     {
@@ -608,7 +609,7 @@ const timelineData = [
             <div className="h-full flex flex-col crt-glow">
               <pre className="text-xl mb-8 text-cyan-500 overflow-hidden leading-tight font-mono">
 {`
- __  __  ____        ____   ___  ____  
+__  __  ____        ____   ___  ____  
 |  \\/  |/ ___|      |  _ \\ / _ \\/ ___| 
 | |\\/| |\\___ \\ _____| | | | | | \\___ \\ 
 | |  | | ___) |_____| |_| | |_| |___) |
@@ -694,23 +695,23 @@ const timelineData = [
                   <div className="mt-4 p-2 bg-black/40 border border-[#333] rounded-sm">
                     <div className="text-[8px] font-bold text-[#555] mb-2 tracking-widest">DIRECTORY_TREE</div>
                     <div className="directory-tree whitespace-pre">
-{`root@hakoniwa: /
-├── bin
-├── boot
-│   └── vmlinuz-5.4
-├── dev
-├── etc
-│   ├── hakoniwa.conf
-│   └── network
-├── home
-│   └── guest
-├── lib
-├── mnt
-│   └── ark_21
-├── proc
-└── var
-    └── log
-        └── sys.log`}
+  {`root@hakoniwa: /
+  ├── bin
+  ├── boot
+  │   └── vmlinuz-5.4
+  ├── dev
+  ├── etc
+  │   ├── hakoniwa.conf
+  │   └── network
+  ├── home
+  │   └── guest
+  ├── lib
+  ├── mnt
+  │   └── ark_21
+  ├── proc
+  └── var
+      └── log
+          └── sys.log`}
                     </div>
                   </div>
                 </div>
@@ -804,7 +805,7 @@ const timelineData = [
                         <div className="grid grid-cols-[40px_1fr_80px_100px_120px] gap-x-4 gap-y-1 border-b border-[#333] pb-1 mb-1">
                           <span>06</span>
                           <span>21号方舟计划</span>
-                          <span>绝密</span>
+                          <span>未知</span>
                           <span>Ω-Black</span>
                           <span>EXECUTING</span>
                         </div>
@@ -1001,7 +1002,7 @@ const timelineData = [
                 <div className="space-y-8 relative px-4 md:px-12 py-8">
                   <div className="flex flex-col items-center mb-12 text-center border-b border-[#333] pb-6">
                     <Calendar size={32} className="text-[#00ff41] mb-2" />
-                    <h2 className="text-2xl font-black tracking-[0.3em] text-[#00ff41] uppercase italic">主线历史档案库</h2>
+                    <h2 className="text-2xl font-black tracking-[0.3em] text-[#00ff41] uppercase italic">历史发展时间档案馆</h2>
                     <p className="text-[10px] text-[#00ff41]/50 mt-2 uppercase tracking-[0.2em]">Hakoniwa Chronological Data Retrieval // V3.0</p>
                   </div>
                   <div className="relative">
